@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import FooterLogo from "../../assets/LOGO-bw-footer.jpg";
+import FooterLogo from "../../assets/LOGO-bw-footer.png";
 
 const FooterContainer = styled.footer`
   display: flex;

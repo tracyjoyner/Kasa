@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ErrorWrapper = styled.div`
+const ErrorContainer = styled.div`
   margin: 30px;
   display: flex;
   flex-direction: column;
@@ -27,13 +27,13 @@ const ErrorReturn = styled.h3`
 
 function Error() {
   return (
-    <ErrorWrapper>
+    <ErrorContainer>
       <ErrorTitle>404</ErrorTitle>
       <ErrorSubtitle>
         Oops! The page you’re looking for doesn’t exist.
       </ErrorSubtitle>
       <ErrorReturn>Return to home page</ErrorReturn>
-    </ErrorWrapper>
+    </ErrorContainer>
   );
 }
 

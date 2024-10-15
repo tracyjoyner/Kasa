@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import styled from "styled-components";
-import LogoRed from "../../assets/LOGO-red-desktop.svgcd .";
+import LogoRed from "../../assets/LOGO-red-desktop.svg";
 
 const HeaderLogo = styled.img`
   height: 68px;
