@@ -1,30 +1,19 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import styled from "styled-components";
 import LogoRed from "../../assets/LOGO-red-desktop.svg";
-
-const HeaderLogo = styled.img`
-  height: 68px;
-`;
-
-const NavContainer = styled.nav`
-  padding: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
+import "./Header.scss";
 
 function Header() {
   return (
-    <NavContainer>
+    <div className={"NavContainer"}>
       <Link to="/">
-        <HeaderLogo src={LogoRed} alt="Kasa Logo" />
+        <img className={"HeaderLogo"} src={LogoRed} alt="Kasa Logo" />
       </Link>
       <nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
+        <NavLink to="/" className={"homeLink"}>Home</NavLink>
+        <NavLink to="/about" className={"aboutLink"}>About</NavLink>
       </nav>
-    </NavContainer>
+    </div>
   );
 }
 

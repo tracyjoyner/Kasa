@@ -1,16 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 
-const GalleryContainer = styled.div`
+const AboutContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
 `;
 
-function Gallery() {
-  return <GalleryContainer>
-    
-  </GalleryContainer>;
+function About() {
+  return <AboutContainer></AboutContainer>;
 }
 
-export default Gallery;
+export default About;

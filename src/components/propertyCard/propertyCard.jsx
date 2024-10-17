@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const PropertyCardContainer = styled.propertyCard`
+const PropertyCardContainer = styled.div`
   display: flex;
   align-items: center;
 `;

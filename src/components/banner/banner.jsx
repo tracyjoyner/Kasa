@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import bannerImage from "../../assets/image-1-rocky-coast.jpg";
 
-const BannerContainer = styled.banner`
+const BannerContainer = styled.div`
   hight: 223px;
   width: 1240px;
   border-radius: 25px;
@@ -16,9 +16,15 @@ const BannerInfo = styled.img`
 `;
 
 function Banner() {
-  return <BannerContainer>
-    <BannerInfo text="At home, everywhere, and anywhere" src={bannerImage} alt="rocky coast" />
-  </BannerContainer>;
+  return (
+    <BannerContainer>
+      <BannerInfo
+        text="At home, everywhere, and anywhere"
+        src={bannerImage}
+        alt="rocky coast"
+      />
+    </BannerContainer>
+  );
 }
 
 export default Banner;

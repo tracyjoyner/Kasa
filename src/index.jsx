@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Router, Route, Routes } from "react-router-dom";
-import Header from "./components/header/header";
-import Home from "./pages/home/home";
-import About from "./pages/about/about";
-import PropertyCard from "./components/propertyCard/propertyCard";
-import Error from "./components/error/error";
-import Footer from "./components/footer/footer";
-import "./index.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./components/header/Header";
+import Home from "./pages/home/HomePage";
+import About from "./pages/about/AboutPage";
+import PropertyCard from "./components/propertyCard/PropertyCard";
+import Error from "./components/error/Error";
+import Footer from "./components/footer/Footer";
+import "./index.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -1,0 +1,30 @@
+.NavContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: 50px 100px;
+  .HeaderLogo {
+    height: 68px;
+  }
+  nav {
+    width: 309px;
+    display: flex;
+    font-weight: 500;
+    font-size: 24px;
+    .homeLink {
+      width: 136px;
+      display: flex;
+      justify-content: right;
+      &:hover,
+      &:active {
+        text-decoration: underline;
+      }
+    }
+    .aboutLink {
+      width: 173px;
+      display: flex;
+      justify-content: right;
+    }
+  }
+}
