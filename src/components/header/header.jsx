@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import LogoRed from "../../assets/LOGO-red-desktop.svg";
-import "./Header.scss";
+import "./header.scss";
 
 function Header() {
   return (

@@ -1,29 +1,17 @@
-import React from "react";
-import styled from "styled-components";
+import "./banner.scss";
 import bannerImage from "../../assets/image-1-rocky-coast.jpg";
-
-const BannerContainer = styled.div`
-  hight: 223px;
-  width: 1240px;
-  border-radius: 25px;
-  opacity: 60%;
-  display: flex;
-  align-items: center;
-`;
-
-const BannerInfo = styled.img`
-  height: 68px;
-`;
 
 function Banner() {
   return (
-    <BannerContainer>
-      <BannerInfo
-        text="At home, everywhere, and anywhere"
+    <div className="BannerContainer">
+      <img
+        className="BannerImage"
         src={bannerImage}
         alt="rocky coast"
       />
-    </BannerContainer>
+      <div className="darken"></div>
+      <h1>At home, everywhere, and anywhere</h1>
+    </div>
   );
 }
 

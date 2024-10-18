@@ -1,0 +1,24 @@
+.ErrorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ErrorTitle {
+  font-weight: 700;
+  font-size: 288px;
+  color: #ff6060;
+}
+
+.ErrorSubtitle {
+  margin: 50px;
+  font-weight: 500;
+  font-size: 36px;
+  color: #ff6060;
+}
+
+.ErrorReturn {
+  margin: 50px;
+  font-weight: 500;
+  font-size: 18px;
+}

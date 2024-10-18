@@ -1,21 +1,21 @@
 .NavContainer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   max-width: 1240px;
-  margin: 50px 100px;
-  .HeaderLogo {
+  margin: 50px 0;
+  > a .HeaderLogo {
     height: 68px;
+    display: flex;
+    justify-content: flex-start;
   }
   nav {
-    width: 309px;
     display: flex;
     font-weight: 500;
     font-size: 24px;
     .homeLink {
       width: 136px;
       display: flex;
-      justify-content: right;
+      justify-content: flex-end;
+      text-decoration: none;
       &:hover,
       &:active {
         text-decoration: underline;
@@ -24,7 +24,12 @@
     .aboutLink {
       width: 173px;
       display: flex;
-      justify-content: right;
+      justify-content: flex-end;
+      text-decoration: none;
+      &:hover,
+      &:active {
+        text-decoration: underline;
+      }
     }
   }
 }

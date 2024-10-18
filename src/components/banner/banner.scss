@@ -1,0 +1,31 @@
+.BannerContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 50px 0;
+  border-radius: 25px;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  .BannerImage {
+    position: relative;
+    height: 223px;
+    width: 1240px;
+    border-radius: 25px;
+    object-fit: cover;
+  }
+  .darken {
+    position: absolute;
+    height: 223px;
+    width: 1240px;
+    border-radius: 25px;
+    background-color: #000;
+    opacity: 60%;
+  }
+  h1 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+  }
+}
