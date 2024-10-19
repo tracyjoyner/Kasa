@@ -10,7 +10,7 @@
     width: 1240px;
     border-radius: 25px;
     object-fit: cover;
-    border: 1px solid #000000;
+    border: 1px solid $color-black;
     box-shadow: 0px 4px 4px 0px #00000040;
   }
   .darken {
@@ -18,13 +18,13 @@
     height: 223px;
     width: 1240px;
     border-radius: 25px;
-    background-color: #000;
+    background-color: $color-black;
     opacity: 60%;
   }
   h1 {
     position: absolute;
     font-weight: 700;
     font-size: 48px;
-    color: #ffffff;
+    color: $color-white;
   }
 }

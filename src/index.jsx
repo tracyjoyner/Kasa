@@ -5,7 +5,7 @@ import Header from "./components/header/Header";
 import Home from "./pages/home/HomePage";
 import About from "./pages/about/AboutPage";
 import PropertyCard from "./components/propertyCard/PropertyCard";
-import Error from "./pages/error/Error";
+import Error from "./pages/error/ErrorPage";
 import Footer from "./components/footer/Footer";
 import "./index.scss";
 

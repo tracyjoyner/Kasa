@@ -1,5 +1,4 @@
 import React from "react";
-import "./banner.scss";
 import bannerImage from "../../assets/image-1-rocky-coast.jpg";
 
 function Banner() {

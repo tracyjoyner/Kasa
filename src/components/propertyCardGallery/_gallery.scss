@@ -1,13 +1,16 @@
 .GalleryContainer {
   width: 1240px;
-  height: 829px;
-  background: #f6f6f6;
+  background: $color-homePage-grey;
   border-radius: 25px;
   margin-bottom: 50px;
-  }
   .accommodations {
     display: flex;
-    flex-wrap: wrap;justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 50px;
     gap: 40px;
   }
+  li::marker {
+    color: $color-homePage-grey;
+  }
+}
