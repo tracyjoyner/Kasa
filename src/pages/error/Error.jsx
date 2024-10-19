@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import "./error.scss";
 
 function Error() {
@@ -7,7 +9,9 @@ function Error() {
       <div className="ErrorSubtitle">
         Oops! The page you’re looking for doesn’t exist.
       </div>
-      <div className="ErrorReturn">Return to home page</div>
+      <Link to="/" className="ErrorReturn">
+        Return to home page
+      </Link>
     </div>
   );
 }

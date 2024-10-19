@@ -1,14 +1,16 @@
 import React from "react";
-import styled from "styled-components";
-
-const AboutContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
+import Banner from "../../components/banner/Banner";
+import Collapse from "../../components/collapse/Collapse";
 
 function About() {
-  return <AboutContainer></AboutContainer>;
+  return (
+    <div className="AboutContainer">
+      <main>
+        <Banner />
+        <Collapse />
+      </main>
+    </div>
+  );
 }
 
 export default About;

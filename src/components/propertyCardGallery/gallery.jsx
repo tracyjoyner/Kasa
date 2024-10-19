@@ -1,16 +1,23 @@
 import React from "react";
-import styled from "styled-components";
-
-const GalleryContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
+import accommodation from "../../assets/accommodation.json";
+import PropertyCard from "../propertyCard/PropertyCard";
+import "./gallery.scss";
 
 function Gallery() {
-  return <GalleryContainer>
-    
-  </GalleryContainer>;
+  return (
+    <div className="GalleryContainer">
+      <ul className="accommodations">
+        {accommodation.map((rental) => (
+          <li key={rental.id} accommodation={rental} aria-hidden="true">
+            <PropertyCard
+              coverImage={rental.cover}
+              title={rental.title}
+            />
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
 export default Gallery;

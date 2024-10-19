@@ -1,0 +1,20 @@
+.PropertyCardContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .PropertyImage {
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  p {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+  }
+}

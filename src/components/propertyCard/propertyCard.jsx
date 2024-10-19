@@ -1,15 +1,14 @@
 import React from "react";
-import styled from "styled-components";
+import { Link } from "react-router-dom";
+import "./propertyCard.scss";
 
-const PropertyCardContainer = styled.div`
-  display: flex;
-  align-items: center;
-`;
-
-function PropertyCard() {
-  return <PropertyCardContainer>
-    
-  </PropertyCardContainer>;
+function PropertyCard({ cover, title }) {
+  return (
+    <Link className="PropertyCardContainer">
+      <img className="PropertyImage" src={cover} alt={title} />
+      <p>{title}</p>
+    </Link>
+  );
 }
 
 export default PropertyCard;
