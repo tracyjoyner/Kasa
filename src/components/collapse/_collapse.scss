@@ -1,17 +1,22 @@
-.collapse {
-  display: flex;
-  justify-content: flex-end;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: $color-Kasa-red;
-  color: $color-white;
-  img {
-   width: 32px;
-   height: 32px;
+.CollapseContainer {
+  padding-bottom: 20px;
+  .collapse {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: $color-Kasa-red;
+    color: $color-white;
+    img {
+      margin: 0;
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+    }
   }
-}
-p {
-  font-weight: 400;
-  font-size: 18px;
-  margin: 10px 10px 20px 10px;
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 15px 20px;
+  }
 }

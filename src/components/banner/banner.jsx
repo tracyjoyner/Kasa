@@ -1,12 +1,11 @@
 import React from "react";
-import bannerImage from "../../assets/image-1-rocky-coast.jpg";
 
-function Banner() {
+function Banner({ bannerImage, text}) {
   return (
     <div className="BannerContainer">
       <img className="BannerImage" src={bannerImage} alt="rocky coast" />
       <div className="darken"></div>
-      <h1>At home, everywhere, and anywhere</h1>
+      <h1>{text}</h1>
     </div>
   );
 }

@@ -1,6 +1,9 @@
+.AboutContainer .darken {
+  opacity: 30%;
+}
+
 .aboutContent {
   width: 1023px;
-  height: 54pxpx;
   li::marker {
     color: $color-white;
   }
