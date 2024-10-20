@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "Reliability",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Sem nostra rhoncus augue dolor eget."
+  },
+  {
+    "id": "2",
+    "title": "Respect",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Sagittis dictum vehicula eleifend dis maecenas aptent donec nunc."
+  },
+  {
+    "id": "3",
+    "title": "Service",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Non ornare iaculis nec velit ante proin?"
+  },
+  {
+    "id": "4",
+    "title": "Security",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Congue cubilia litora; mi per convallis curae. Hendrerit adipiscing purus ullamcorper venenatis erat mus interdum suscipit."
+  }
+]

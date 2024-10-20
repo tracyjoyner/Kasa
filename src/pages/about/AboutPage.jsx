@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../../components/banner/Banner";
+import aboutContent from "../../assets/aboutContent.json";
 import Collapse from "../../components/collapse/Collapse";
 
 function About() {
@@ -7,7 +8,15 @@ function About() {
     <div className="AboutContainer">
       <main>
         <Banner />
-        <Collapse />
+        <ul className="aboutContent">
+          {aboutContent.map((content) => (
+            <li key={content.id}>
+              <div to={`/aboutContent/${content.id}`}>
+                <Collapse title={content.title} content={content.description} />
+              </div>
+            </li>
+          ))}
+        </ul>
       </main>
     </div>
   );
