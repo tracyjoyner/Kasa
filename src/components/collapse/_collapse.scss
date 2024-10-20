@@ -1,22 +1,30 @@
 .CollapseContainer {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   .collapse {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     border-radius: 5px;
     background-color: $color-Kasa-red;
     color: $color-white;
-    img {
-      margin: 0;
-      width: 32px;
-      height: 32px;
-      cursor: pointer;
+    margin: 0;
+    h2 {
+      margin-left: 10px;
+    }
+    .dropdownArrows {
+      margin-right: 10px;
+      img {
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        transform: rotate(-180deg);
+      }
     }
   }
   p {
     font-weight: 400;
     font-size: 18px;
     margin: 10px 15px 20px;
+    transition: transform 5000ms ease-in ;
   }
 }
