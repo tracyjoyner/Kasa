@@ -5,7 +5,7 @@ import PropertyCard from "../propertyCard/PropertyCard";
 
 function Gallery() {
   return (
-    <div className="GalleryContainer">
+    <div className="gallery-container">
       <ul className="accommodations">
         {accommodation.map((rental) => (
           <li key={rental.id}>

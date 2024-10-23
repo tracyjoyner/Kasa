@@ -1,14 +1,17 @@
-.PropertyCardContainer {
+.property-card-container {
   position: relative;
   display: flex;
   align-items: flex-end;
-  .PropertyImage {
-    width: 340px;
-    height: 340px;
-    border-radius: 10px;
-    object-fit: cover;
+  .property-image {
+    @include property-card-shape;
+  }
+  .linear-gradient {
+    position: absolute;
+    @include property-card-shape;
+    background: linear-gradient(180deg, $color-white, $color-black);
+    opacity: 35%;
     &:hover {
-      opacity: 50%;
+      opacity: 25%;
     }
   }
   p {

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import ArrowOpen from "../../assets/ArrowOpen.svg";
-import ArrowClose from "../../assets/ArrowClose.svg";
+import ArrowOpen from "../../assets/Arrow-Open.svg";
 
 function Collapse({ title, content }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,17 +7,17 @@ function Collapse({ title, content }) {
     setIsOpen(!isOpen);
   };
 
-  // TODO add arrow rotation and text slide-in?
+  // TODO add text slide-in?
 
   return (
-    <div className="CollapseContainer">
+    <div className="collapse-container">
       <div className="collapse">
         <h2>{title}</h2>
-        <div onClick={display} className="dropdownArrows">
+        <div onClick={display} className="dropdown-arrows">
           {isOpen ? (
-            <img src={ArrowOpen} alt="Open Dropdown" className="arrowOpen" />
+            <img src={ArrowOpen} alt="Open Dropdown" className="arrow-open" />
           ) : (
-            <img src={ArrowClose} alt="Close Dropdown" />
+            <img src={ArrowOpen} alt="Close Dropdown" className="arrow-close" />
           )}
         </div>
       </div>

@@ -1,15 +1,15 @@
 import React from "react";
 import Banner from "../../components/banner/Banner";
 import aboutImage from "../../assets/Image-2-mtns.jpg";
-import aboutContent from "../../assets/aboutContent.json";
+import aboutContent from "../../assets/about-content.json";
 import Collapse from "../../components/collapse/Collapse";
 
 function About() {
   return (
-    <div className="AboutContainer">
+    <div className="about-container">
       <main>
         <Banner text="" bannerImage={aboutImage} />
-        <ul className="aboutContent">
+        <ul className="about-content">
           {aboutContent.map((content) => (
             <li key={content.id}>
               <div to={`/aboutContent/${content.id}`}>

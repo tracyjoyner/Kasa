@@ -5,9 +5,12 @@ import Gallery from "../../components/propertyCardGallery/Gallery";
 
 function Home() {
   return (
-    <div className="HomeContainer">
+    <div>
       <main>
-        <Banner text="At home, everywhere, and anywhere" bannerImage={homeImage} />
+        <Banner
+          text="At home, everywhere, and anywhere"
+          bannerImage={homeImage}
+        />
         <Gallery />
       </main>
     </div>

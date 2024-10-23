@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function PropertyCard({ coverImage, title }) {
   return (
-    <Link className="PropertyCardContainer">
-      <img className="PropertyImage" src={coverImage} alt={title} />
+    <div className="property-card-container">
+      <img className="property-image" src={coverImage} alt={title} />
+      <div className="linear-gradient"></div>
       <p>{title}</p>
-    </Link>
+    </div>
   );
 }
 
