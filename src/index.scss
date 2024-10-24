@@ -5,10 +5,11 @@
 @import "./components/collapse/collapse";
 @import "./components/footer/footer";
 @import "./components/header/header";
-@import "./components/propertyCard/propertyCard";
+@import "./components/propertyCard/property-card";
 @import "./components/propertyCardGallery/gallery";
+@import "./pages/about/about-page";
 @import "./pages/error/error";
-@import "./pages/about/aboutPage";
+@import "./pages/home/home-page";
 
 * {
   font-family: "Montserrat", sans-serif;

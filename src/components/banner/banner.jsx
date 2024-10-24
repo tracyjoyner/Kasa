@@ -1,6 +1,6 @@
 import React from "react";
 
-function Banner({ bannerImage, text}) {
+function Banner({ bannerImage, text }) {
   return (
     <div className="banner-container">
       <img className="banner-image" src={bannerImage} alt="rocky coast" />
