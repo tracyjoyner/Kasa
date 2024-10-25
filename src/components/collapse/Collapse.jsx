@@ -7,8 +7,6 @@ function Collapse({ title, content }) {
     setIsOpen(!isOpen);
   };
 
-  // TODO add text slide-in?
-
   return (
     <div className="collapse-container">
       <div className="collapse">

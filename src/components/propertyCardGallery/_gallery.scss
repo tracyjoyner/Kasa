@@ -12,4 +12,15 @@
   li::marker {
     color: $color-homePage-grey;
   }
+  @media only screen and (max-width: 768px) {
+    background: $color-white;
+    margin: 0 20px;
+    .accommodations {
+      gap: 20px;
+      padding: 20px;
+    }
+    li::marker {
+      color: $color-white;
+    }
+  }
 }

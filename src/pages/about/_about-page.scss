@@ -5,7 +5,6 @@
 
 .about-content {
   width: 1023px;
-  li::marker {
-    color: $color-white;
-  }
+  margin: 20px 20px 20px -20px;
+  list-style-type: none;
 }

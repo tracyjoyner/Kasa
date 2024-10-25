@@ -10,3 +10,8 @@
   border-radius: 10px;
   object-fit: cover;
 }
+
+@mixin property-card-shape-media {
+  width: 335px;
+  height: 225px;
+}

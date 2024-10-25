@@ -5,13 +5,14 @@
   .error-title {
     font-weight: 700;
     font-size: 288px;
-    color: #ff6060;
+    color: $color-Kasa-red;
     margin: 25px;
   }
   .error-subtitle {
     font-weight: 500;
     font-size: 36px;
-    color: #ff6060;
+    text-align: center;
+    color: $color-Kasa-red;
     margin: 50px;
   }
   .error-return {
@@ -23,6 +24,20 @@
     &:hover,
     &:active {
       text-decoration: underline;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .error-title {
+      font-size: 96px;
+      margin-top: 50px;
+    }
+    .error-subtitle {
+      text-align: center;
+      font-size: 18px;
+      margin: 50px 75px;
+    }
+    .error-return {
+      font-size: 14px;
     }
   }
 }

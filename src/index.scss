@@ -10,6 +10,11 @@
 @import "./pages/about/about-page";
 @import "./pages/error/error";
 @import "./pages/home/home-page";
+@import "./components/accommodations/carousel";
+@import "./components/accommodations/dropdowns";
+@import "./components/accommodations/ratings";
+@import "./components/accommodations/tags";
+@import "./components/accommodations/title-location-host";
 
 * {
   font-family: "Montserrat", sans-serif;
