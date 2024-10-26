@@ -7,13 +7,15 @@ function Gallery() {
   return (
     <div className="gallery-container">
       <ul className="accommodations">
-        {accommodation.map((rental) => (
-          <li key={rental.id}>
-            <Link to={`/accommodation/${rental.id}`}>
-              <PropertyCard coverImage={rental.cover} title={rental.title} />
-            </Link>
-          </li>
-        ))}
+        {accommodation.map((rental) => {
+          return (
+            <li key={rental.id}>
+              <Link to={`/accommodations/${rental.id}`}>
+                <PropertyCard coverImage={rental.cover} title={rental.title} />
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
