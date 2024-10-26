@@ -4,10 +4,17 @@
   .title-location {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     margin: 0;
     .title {
       color: $color-Kasa-red;
+      font-weight: 500;
+      font-size: 36px;
+      margin: 0;
+    }
+    p {
+      font-weight: 500;
+      font-size: 18px;
+      margin: 0;
     }
   }
   .host-info {
@@ -17,10 +24,16 @@
     gap: 20px;
     margin: 0;
     p {
+      // TODO stack name text??
       color: $color-Kasa-red;
+      font-weight: 500;
+      font-size: 18px;
+      text-align: right;
       flex-wrap: wrap;
     }
     img {
+      height: 64px;
+      width: 64px;
       border-radius: 50%;
     }
   }

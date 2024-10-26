@@ -5,7 +5,7 @@ import Carousel from "../../components/accommodations/Carousel";
 import TitleLocationHost from "../../components/accommodations/TitleLocationHost";
 import Tags from "../../components/accommodations/Tags";
 import Ratings from "../../components/accommodations/Ratings";
-import Dropdowns from "../../components/accommodations/Dropdowns";
+import Collapse from "../../components/collapse/Collapse";
 
 function AccommodationDetails() {
   const id = useParams();
@@ -13,10 +13,18 @@ function AccommodationDetails() {
     (accommodation) => accommodation.id === id.id
   );
 
+  const equipments = rental?.equipments.map((equipment, i) => {
+    return (
+      <ul key={i}>
+        <li>{equipment}</li>
+      </ul>
+    );
+  });
+
   return (
     <div>
       {rental ? (
-        <div>
+        <div className="accommodation-container">
           <Carousel />
           <TitleLocationHost
             title={rental.title}
@@ -27,10 +35,8 @@ function AccommodationDetails() {
           <Tags tags={rental.tags} />
           {/* TODO figure out stars */}
           <Ratings />
-          <Dropdowns
-            description={rental.description}
-            equipments={rental.equipments}
-          />
+          <Collapse title="Description" content={rental.description} />
+          <Collapse title="Amenities" content={equipments} />
         </div>
       ) : (
         <Navigate to="/error" />
