@@ -29,12 +29,31 @@
       font-weight: 500;
       font-size: 18px;
       text-align: right;
-      flex-wrap: wrap;
     }
     img {
       height: 64px;
       width: 64px;
       border-radius: 50%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .title-location {
+      .title {
+        font-size: 18px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .host-info {
+      p {
+        font-size: 12px;
+      }
+      img {
+        height: 32px;
+        width: 32px;
+        border-radius: 50%;
+      }
     }
   }
 }

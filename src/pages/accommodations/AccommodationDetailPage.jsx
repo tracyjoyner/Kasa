@@ -33,10 +33,11 @@ function AccommodationDetails() {
             hostPic={rental.host.picture}
           />
           <Tags tags={rental.tags} />
-          {/* TODO figure out stars */}
-          <Ratings />
-          <Collapse title="Description" content={rental.description} />
-          <Collapse title="Amenities" content={equipments} />
+          <Ratings rating={rental.rating} />
+          <div className="collapses">
+            <Collapse title="Description" content={rental.description} />
+            <Collapse title="Amenities" content={equipments} />
+          </div>
         </div>
       ) : (
         <Navigate to="/error" />

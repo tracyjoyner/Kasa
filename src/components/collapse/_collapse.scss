@@ -1,66 +1,66 @@
-.collapse-container {
-  padding-bottom: 30px;
-  margin: 0;
-  .collapse {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: $color-Kasa-red;
-    color: $color-white;
-    h2 {
-      margin-left: 10px;
-    }
-    .dropdown-arrows {
-      margin-right: 10px;
-      img {
-        width: 32px;
-        height: 32px;
-        cursor: pointer;
-      }
-      .arrow-open {
-        transform: rotate(0deg);
-        transition: transform 500ms ease-in;
-      }
-      .arrow-close {
-        transform: rotate(180deg);
-        transition: transform 500ms ease-in;
-      }
-    }
-  }
-  p {
-    font-weight: 400;
-    font-size: 18px;
-    margin: 10px 15px 20px;
-    animation: 500ms slideDown;
-    @keyframes slideDown {
-      0% {
-        transform: translateY(-50px);
-      }
-      100% {
-        transform: translateY(0);
-      }
-    }
-  }
-}
+// .collapse-container {
+//   padding-bottom: 30px;
+//   margin: 0;
+//   .collapse {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 10px;
+//     border-radius: 5px;
+//     background-color: $color-Kasa-red;
+//     color: $color-white;
+//     h2 {
+//       margin-left: 10px;
+//     }
+//     .dropdown-arrows {
+//       margin-right: 10px;
+//       img {
+//         width: 32px;
+//         height: 32px;
+//         cursor: pointer;
+//       }
+//       .arrow-open {
+//         transform: rotate(0deg);
+//         transition: transform 500ms ease-in;
+//       }
+//       .arrow-close {
+//         transform: rotate(180deg);
+//         transition: transform 500ms ease-in;
+//       }
+//     }
+//   }
+//   p {
+//     font-weight: 400;
+//     font-size: 18px;
+//     margin: 10px 15px 20px;
+//     animation: 500ms slideDown;
+//     @keyframes slideDown {
+//       0% {
+//         transform: translateY(-50px);
+//       }
+//       100% {
+//         transform: translateY(0);
+//       }
+//     }
+//   }
+// }
 
-@media only screen and (max-width: 768px) {
-  .collapse-container {
-    .collapse {
-      padding: 5px;
-      h2 {
-        font-size: 13px;
-      }
-      .dropdown-arrows {
-        img {
-          width: 26px;
-          height: 26px;
-        }
-      }
-    }
-    p {
-      font-size: 12px;
-    }
-  }
-}
+// @media only screen and (max-width: 768px) {
+//   .collapse-container {
+//     .collapse {
+//       padding: 5px;
+//       h2 {
+//         font-size: 13px;
+//       }
+//       .dropdown-arrows {
+//         img {
+//           width: 26px;
+//           height: 26px;
+//         }
+//       }
+//     }
+//     p {
+//       font-size: 12px;
+//     }
+//   }
+// }
