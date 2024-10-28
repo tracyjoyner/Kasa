@@ -11,7 +11,7 @@ function Ratings({ rating }) {
             key={star.toString()}
             className="star"
             src={starRed}
-            alt=" redstar"
+            alt="red star"
           />
         ) : (
           <img

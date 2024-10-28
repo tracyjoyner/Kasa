@@ -25,7 +25,7 @@ function AccommodationDetails() {
     <div>
       {rental ? (
         <div className="accommodation-container">
-          <Carousel />
+          <Carousel pictures={rental.pictures} />
           <TitleLocationHost
             title={rental.title}
             location={rental.location}

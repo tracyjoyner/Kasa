@@ -1,10 +1,13 @@
 .accommodation-container {
+  display: flex;
+  flex-direction: column;
   max-width: 1240px;
-  margin: 0 20px;
+  padding: 0 20px;
   .collapses {
     display: flex;
     justify-content: space-evenly;
     gap: 75px;
+    margin: 0;
     .collapse-container {
       width: 100%;
       padding-bottom: 30px;

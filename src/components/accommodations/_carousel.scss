@@ -1,0 +1,15 @@
+.carousel-container {
+  max-height: 415px;
+  .picture-active,
+  .picture {
+    position: relative;
+    height: 100%;
+  }
+  .arrow-previous,
+  .arrow-next {
+    width: 96px;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+}
