@@ -24,9 +24,11 @@ function Carousel({ pictures }) {
               className={"picture" + (index === current ? " active" : "")}
               src={picture}
               alt=""
-              caption={`${index + 1}/${pictures.length}`}
             />
           ))}
+          <span className="caption">
+            {current + 1}/{pictures.length}
+          </span>
           <div className="arrow-previous" onClick={previousPicture}>
             <img src={arrow} className="previous-arrow" alt="previouse arrow" />
           </div>
