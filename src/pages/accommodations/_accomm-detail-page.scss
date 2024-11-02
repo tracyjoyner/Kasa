@@ -72,10 +72,15 @@
       flex-direction: column;
       gap: 10px;
       padding-bottom: 20px;
+      .details-container {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+      }
       .collapse-container {
         padding-bottom: 5px;
         .collapse {
-          padding: 5px;
+          padding: 2px;
           h2 {
             font-size: 13px;
           }

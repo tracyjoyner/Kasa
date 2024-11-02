@@ -19,10 +19,9 @@
     font-size: 14px;
     background-color: $color-Kasa-red;
     border-radius: 10px;
-    // border: 1px solid $color-black;
-    // TODO border corners?
   }
   @media only screen and (max-width: 768px) {
+    padding: 10px 0;
     .tag {
       height: 18px;
       font-size: 10px;
