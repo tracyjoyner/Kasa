@@ -2,7 +2,6 @@
 @import "./utils/mixins";
 @import "./utils/variables";
 @import "./components/banner/banner";
-@import "./components/collapse/collapse";
 @import "./components/footer/footer";
 @import "./components/header/header";
 @import "./components/propertyCard/property-card";
@@ -13,8 +12,9 @@
 @import "./pages/accommodations/accomm-detail-page";
 @import "./components/accommodations/carousel";
 @import "./components/accommodations/ratings";
+@import "./components/accommodations/host";
 @import "./components/accommodations/tags";
-@import "./components/accommodations/title-location-host";
+@import "./components/accommodations/title-location";
 
 * {
   font-family: "Montserrat", sans-serif;

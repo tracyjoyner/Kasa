@@ -18,6 +18,15 @@
       opacity: 1;
     }
   }
+  .soloPicture {
+    display: flex;
+    position: absolute;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 10;
+  }
   .caption {
     position: absolute;
     display: flex;

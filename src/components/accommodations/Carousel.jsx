@@ -15,7 +15,7 @@ function Carousel({ pictures }) {
   return (
     <div className="carousel-container">
       {pictures.length === 1 ? (
-        <img src={pictures[0]} alt="" />
+        <img className="soloPicture" src={pictures[0]} alt="" />
       ) : (
         <>
           {pictures.map((picture, index) => (

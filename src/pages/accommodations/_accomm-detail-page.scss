@@ -1,8 +1,11 @@
 .accommodation-container {
-  display: flex;
-  flex-direction: column;
   max-width: 1240px;
   padding: 0 20px;
+  .details-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+  }
   .collapses {
     display: flex;
     justify-content: space-evenly;
@@ -14,6 +17,8 @@
       margin: 0;
       .collapse {
         display: flex;
+        position: relative;
+        z-index: 10;
         justify-content: space-between;
         align-items: center;
         padding: 5px;

@@ -12,6 +12,6 @@
 }
 
 @mixin property-card-shape-media {
-  width: 335px;
-  height: 225px;
+  max-width: 335px;
+  max-height: 225px;
 }
