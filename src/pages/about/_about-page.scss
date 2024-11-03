@@ -12,8 +12,7 @@
     padding-bottom: 30px;
     margin: 0;
     .collapse {
-      display: flex;
-      position: relative;
+      @include flex-relative;
       z-index: 10;
       padding: 10px;
       border-radius: 5px;
@@ -41,7 +40,7 @@
         }
       }
     }
-    p {
+    .content {
       font-weight: 400;
       font-size: 18px;
       margin: 10px 15px 20px;
@@ -71,7 +70,7 @@
           }
         }
       }
-      p {
+      .content {
         font-size: 12px;
       }
     }

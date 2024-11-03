@@ -15,3 +15,13 @@
   max-width: 335px;
   max-height: 225px;
 }
+
+@mixin flex-absolute {
+  display: flex;
+  position: absolute;
+}
+
+@mixin flex-relative {
+  display: flex;
+  position: relative;
+}

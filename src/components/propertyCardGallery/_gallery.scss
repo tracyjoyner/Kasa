@@ -1,7 +1,7 @@
 .gallery-container {
   max-width: 1240px;
   background: $color-homePage-grey;
-  border-radius: 25px;
+  border-radius: $border-rad-desktop;
   margin: 0 20px 50px;
   .accommodations {
     display: flex;
