@@ -19,7 +19,7 @@ function Collapse({ title, content }) {
           )}
         </div>
       </div>
-      <div>{isOpen && <div className="content">{content}</div>}</div>
+      <div>{isOpen && <div className="content slide-down">{content}</div>}</div>
     </div>
   );
 }
