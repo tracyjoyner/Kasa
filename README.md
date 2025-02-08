@@ -1,4 +1,4 @@
-# Responsive User Experience using React
+# Responsive User Experience using React - Kasa
 
 # Scenario:
 Kasa is recruiting you as a freelance front-end developer to build its new web platform.
