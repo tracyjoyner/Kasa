@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Responsive User Experience using React
 
 # Scenario:
 Kasa is recruiting you as a freelance front-end developer to build its new web platform.
